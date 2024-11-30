@@ -1,0 +1,158 @@
+{
+  "title": "Misc",
+  "rules": [
+    {
+      "description": "? Swap",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": ["shift"],
+              "optional": []
+            }
+          },
+          "to": [
+            {
+              "key_code": "slash",
+              "modifiers": []
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": [],
+              "optional": []
+            }
+          },
+          "to": [
+            {
+              "key_code": "slash",
+              "modifiers": ["left_shift"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+        {
+      "description": "Aerospace",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "non_us_backslash",
+            "modifiers": {
+              "optional": []
+            }
+          },
+          "to": [
+            {
+              "key_code": "f20",
+              "modifiers": []
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "fn",
+            "modifiers": {
+              "optional": []
+            }
+          },
+          "to": [
+            {
+              "key_code": "f19",
+              "modifiers": []
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "close_bracket",
+            "modifiers": {
+              "optional": []
+            }
+          },
+          "to": [
+            {
+              "key_code": "f18",
+              "modifiers": []
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": {
+              "optional": []
+            }
+          },
+          "to": [
+            {
+              "key_code": "f17",
+              "modifiers": []
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "equal_sign",
+            "modifiers": {
+              "optional": []
+            }
+          },
+          "to": [
+            {
+              "key_code": "f16",
+              "modifiers": []
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "hyphen",
+            "modifiers": {
+              "optional": []
+            }
+          },
+          "to": [
+            {
+              "key_code": "f15",
+              "modifiers": []
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "TextSniper",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "b",
+            "modifiers": {
+              "mandatory": ["command"],
+              "optional": []
+            }
+          },
+          "to": [
+            {
+              "key_code": "f14",
+              "modifiers": []
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
