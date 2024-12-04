@@ -105,12 +105,44 @@
           "from": {
             "key_code": "equal_sign",
             "modifiers": {
+              "mandatory": ["option"],
               "optional": []
             }
           },
           "to": [
             {
               "key_code": "f16",
+              "modifiers": []
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "equal_sign",
+            "modifiers": {
+              "optional": []
+            }
+          },
+          "to": [
+            {
+              "key_code": "vk_none",
+              "modifiers": []
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "hyphen",
+            "modifiers": {
+              "mandatory": ["option"],
+              "optional": []
+            }
+          },
+          "to": [
+            {
+              "key_code": "f15",
               "modifiers": []
             }
           ],
@@ -125,7 +157,7 @@
           },
           "to": [
             {
-              "key_code": "f15",
+              "key_code": "vk_none",
               "modifiers": []
             }
           ],
