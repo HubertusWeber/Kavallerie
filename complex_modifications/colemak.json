@@ -309,9 +309,6 @@
           "from": {
             "key_code": "b",
             "modifiers": {
-              "mandatory": [
-                "shift"
-              ],
               "optional": [
                 "any"
               ]
@@ -319,25 +316,7 @@
           },
           "to": [
             {
-              "key_code": "s",
-              "modifiers": ["left_option"]
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "from": {
-            "key_code": "b",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "u",
-              "modifiers": ["left_option"]
+              "key_code": "quote"
             }
           ],
           "type": "basic"
